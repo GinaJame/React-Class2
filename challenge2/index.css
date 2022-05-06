@@ -14,7 +14,10 @@ h1{
     align-items: center;
 }
 
-
+.react-logo{
+    width: 50px;
+    display: block;
+}
 .main-menu{
 
 

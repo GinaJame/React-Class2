@@ -18,7 +18,7 @@ function Header(){
     return(
         <header className="encabezado">
             <nav>
-                <img src="./react.svg" width="40px"  className="react-logo"/>
+                <img src="./react.svg" className="react-logo"/>
                 <ul className="main-menu">
                     <li>Basics</li>
                     <li>Demo</li>
