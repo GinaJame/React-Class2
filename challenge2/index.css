@@ -1,8 +1,25 @@
 html, body {
-    margin: 10px;
+    margin: 0px;
     padding: 0;
 }
 
 h1{
     margin: 20px 10px;
+}
+
+.encabezado{
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.main-menu{
+
+
+}
+.main-menu li{
+    display: inline-block;
+    list-style-type: none;
 }

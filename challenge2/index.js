@@ -16,9 +16,15 @@ Crea un cuarto 'custom component' llamado Page, dentro de él incluye los 3 comp
 */
 function Header(){
     return(
-        <header>
+        <header className="encabezado">
             <nav>
-                <img src="./react.svg" width="40px" />
+                <img src="./react.svg" width="40px"  className="react-logo"/>
+                <ul className="main-menu">
+                    <li>Basics</li>
+                    <li>Demo</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
             </nav>
         </header>
     )
